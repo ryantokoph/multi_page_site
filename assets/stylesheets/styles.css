@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    font-family: 'Fredoka', sans-serif;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    /* display: fixed; */
+    background-color: red;
+    padding: 10px 30px;
+    
+}
+
+.blankSpace {
+    padding: 100px;
+}
+
+.mainMargin {
+    margin-left: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+    border: solid white 2px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+button {
+    height: 40px;
+    width: 50px;
+    background-color: red;
+    border-style: none;
+}
+
+#search_box {
+    border-style: none;
+    width: 500px;
+    height: 40px;
+}
+
+#search_bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#list {
+    list-style-type: none;
+    color: white;
+    text-align: right;
+    width: 100%;
+    margin-right: 15px;
+}
+
+#main_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%
+}
+
+#cart {
+    background: none;
+    
+}
+
+#small_list {
+    list-style: none;
+}
+
+#slide {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    0% {
+      margin-left: 0%;
+    }
+    50% {
+      margin-left: 300px;
+    }
+    100% {
+      margin-left: 0%;
+    }
+  }
+
+.invert {
+    filter: invert();
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px red;
+}
+
+h3 {
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
